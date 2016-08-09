@@ -1,5 +1,2 @@
-Contributurs to the project:
-* Trinity Headen
+Contributurs to the project: 
 * Gloria Salas
-* Dewan Fathima
-* Denielle Plummer
