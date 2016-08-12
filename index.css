@@ -1,0 +1,48 @@
+body{
+	background-image: url(beg.jpg);
+	background-size: 390px 630px;
+
+}
+h3{
+	color: "yellow";
+}
+
+#btn{
+
+	font-family: "arial";
+	color: white;
+	background-color: #4CAF50;
+	font-size: 20px;
+}
+#btn2{
+	font-family: "arial";
+	color: white;
+	background-color: blue;
+	font-size: 20px;
+}
+
+#welcome{
+	font-family: "arial";
+	color: white;
+	background-color: green;
+
+}
+#btn3{
+
+	font-family: "arial";
+	color: blue;
+	background-color: yellow;
+	font-size: 20px;
+}
+#btn4{
+	font-family: "arial";
+	color: white;
+	background-color: purple;
+	font-size: 20px;
+}
+.itn{
+	font-family: "arial";
+	color: white;
+	background-color: red;
+}
+

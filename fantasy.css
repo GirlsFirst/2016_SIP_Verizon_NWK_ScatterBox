@@ -1,0 +1,9 @@
+body{
+	background-image: url(enchant.jpg);
+	background-size: 390px 630px;
+}
+#welcome{
+	font-family: "arial";
+	color: white;
+	background-color: red;
+}
