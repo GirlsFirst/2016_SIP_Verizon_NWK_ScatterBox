@@ -1,28 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
+
 <widget xmlns   = "http://www.w3.org/ns/widgets"
     xmlns:gap   = "http://phonegap.com/ns/1.0"
-    id          = "com.phonegap.app"
+    id          = "com.example.hello"
     versionCode = "1" 
     version     = "1.0.0" >
     
     <name>Lucid</name>
     
     <description>
-            A mobile guide to the Text Adventure. 
+            A mobile guide to Text Adventure. 
     </description>
-    <author href="http://phonegap.com" email="support@phonegap.com">
-             PhoneGap Team
-    </author>
+    <author href="http://phonegap.com" email="support@phonegap.com">PhoneGap Team</author>
 
 
-
-
-
-<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.phonegap.app" version="1.0.0">
-  <name>Lucid</name>
-  <description>Hello World sample application that responds to the deviceready event.</description>
-  <author href="http://phonegap.com" email="support@phonegap.com">PhoneGap Team</author>
 
 
         <platform name= "android"/>
@@ -32,9 +24,8 @@
         <preference name="webviewbounce" value="false" />
         <preference name="DisallowOverscroll" value="true" />
         <preference name="disallowOverscroll" value="true" />
-        <preference name="StatusBarOverlaysWebView" value="false" />
-        <preference name="ios-statusbarstyle" value="default"/>
-        <preference name="StatusBarStyle" value="default" />
+
+
           
         <preference name="android-minSdkVersion" value="21" />
         <preference name="android-installLocation" value="auto" />
@@ -58,17 +49,18 @@
       </platform>
 
       <preference name= "permissions" value= "none"/>
-      
+
       <plugin name="cordova-plugin-camera" spec="~2.1.1" source="npm"/>
-      <plugin name="cordova-plugin-device" spec="~1.1.1" source="npm"/>
-      <plugin name="cordova-plugin-dialogs" spec="~1.2.0" source="npm"/>
-      <plugin name="cordova-plugin-geolocation" spec="~2.1.0" source="npm"/>
-      <plugin name="cordova-plugin-inappbrowser" spec="~1.3.0" source="npm"/>
-      <plugin name="cordova-plugin-network-information" spec="~1.2.0" source="npm"/>
-      <plugin name="cordova-plugin-splashscreen" spec="~3.2.1" source="npm"/>
-      <plugin name="cordova-plugin-statusbar" spec="~2.1.2" source="npm"/>
-      <plugin name="cordova-plugin-whitelist" spec="~1.2.1" source="npm"/>
-      <plugin name="phonegap-plugin-barcodescanner" spec="4.1.0" source="npm"/>
+ +      <plugin name="cordova-plugin-device" spec="~1.1.1" source="npm"/>
+ +      <plugin name="cordova-plugin-dialogs" spec="~1.2.0" source="npm"/>
+ +      <plugin name="cordova-plugin-geolocation" spec="~2.1.0" source="npm"/>
+ +      <plugin name="cordova-plugin-inappbrowser" spec="~1.3.0" source="npm"/>
+ +      <plugin name="cordova-plugin-network-information" spec="~1.2.0" source="npm"/>
+ +      <plugin name="cordova-plugin-splashscreen" spec="~3.2.1" source="npm"/>
+ +      <plugin name="cordova-plugin-statusbar" spec="~2.1.2" source="npm"/>
+ +      <plugin name="cordova-plugin-whitelist" spec="~1.2.1" source="npm"/>
+        <plugin name="phonegap-plugin-barcodescanner" spec="4.1.0" source="npm"/>
+
       <access origin="*" subdomains="true"/>
       <allow-intent href="http://*/*"/>
       <allow-intent href="https://*/*"/>
@@ -79,10 +71,7 @@
       <platform name="android">
       <allow-intent href="market:*"/>
       </platform>
-      <platform name="ios">
-        <allow-intent href="itms:*"/>
-        <allow-intent href="itms-apps:*"/>
-      </platform>
+
 
 
 
