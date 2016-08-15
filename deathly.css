@@ -2,3 +2,47 @@ body{
 	background-image: url(death.jpg);
 	background-size: 390px 630px;
 }
+#welcome{
+	font-family: "arial";
+	color: #7FEDFF;
+	background-color:  #607d8b;
+	font-size: 13px;
+	font-weight: thick;
+
+}
+#btn{
+	font-family: "arial";
+	color: white;
+	background-color: #3A6D75;
+	font-size: 20px;
+}
+#btn2{
+	font-family: "arial";
+	color: white;
+	background-color: #3A6D75;
+	font-size: 20px;
+}
+.points {
+    padding: 20px;
+    background-color: #f44336; /* Red */
+    color: white;
+    margin-bottom: 15px;
+}
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.closebtn:hover {
+    color: black;
+}
+
+7FEDFF-light blue
+#4CAF50-nice green
+#8bc34a-light green
+cfd8dc- background color

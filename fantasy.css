@@ -6,4 +6,46 @@ body{
 	font-family: "arial";
 	color: white;
 	background-color: red;
+	font-size: 13px;
 }
+#btn{
+
+	font-family: "arial";
+	color: white;
+	background-color: #4CAF50;
+	font-size: 20px;
+}
+#btn2{
+	font-family: "arial";
+	color: white;
+	background-color: #4CAF50;
+	font-size: 20px;
+}
+
+#welcome{
+	font-family: "arial";
+	color: white;
+	background-color: green;
+
+}
+.points {
+    padding: 20px;
+    background-color: #f44336; /* Red */
+    color: white;
+    margin-bottom: 15px;
+}
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.closebtn:hover {
+    color: black;
+}
+
+#4CAF50=green

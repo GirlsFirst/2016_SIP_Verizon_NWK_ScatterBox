@@ -1,20 +1,46 @@
 body{
-	background-image: url(galaxy.jpg);
+	background-image: url(galaxy3.jpg);
 	background-size: 390px 630px;
 }
 #btn{
 	font-family: "arial";
 	color: white;
-	background-color: red;
+	background-color: #212121;
 }
 #btn2{
 	font-family: "arial";
 	color: white;
-	background-color: blue;
+	background-color: #212121;
 }
 #welcome{
 	font-family: "arial";
 	color: white;
-	background-color: green;
+	background-color: #ff5722;
+	font-size: 13px;
 
 }
+.points {
+    padding: 20px;
+    background-color: #f44336; /* Red */
+    color: white;
+    margin-bottom: 15px;
+}
+
+/* The close button */
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.closebtn:hover {
+    color: black;
+}
+
+f44336=red
+ff5722=deep orange red
+212121=blackgrey 
