@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
   <head>
-  <script src="http://maps.googleapis.com/maps/api/js"></script>
+
     <style>
        #map {
-        width: 100%;
-        height: 400px;
+        width: 600%;
+        height: 500px;
       }
     </style>
   </head>
@@ -13,188 +13,30 @@
     <div id="map"></div>
     <script>
       function initMap() {
-        var myLatLng = {lat: 40.752520, lng: -74.151095};
+        var myLatLng = {lat: 40.74136, lng: -74.1797238};
+        var myLatLng2 = {lat: 29.9792, lng: 31.1342};
         var mapDiv = document.getElementById('map');
         var map = new google.maps.Map(mapDiv, {
             center: myLatLng,
             zoom: 8
         });
+
         var marker = new google.maps.Marker({
-          position: myLatLng, 
+          position: myLatLng,
           map: map,
-          title: 'West Hudson Park!'
+          title: 'Your Location'
         });
+        
         var marker2 = new google.maps.Marker({
-          position: {lat: 40.914841, lng: -74.187393},
+          position: myLatLng2,
           map: map,
-          title: 'John F. Kennedy High School'
+          title: 'Egypt Pyramid'
         });
-        marker2.setMap(map);
-        var marker3 = new google.maps.Marker({
-          position: {lat: 40.740484, lng: -74.185111},
-          map: map,
-          title: 'Science Park High School'
-        });
-        marker3.setMap(map);
-        var marker4 = new google.maps.Marker({
-          position: {lat: 40.743252, lng: -74.187409},
-          map: map, 
-          title: 'Saint Vincent Academy'
-        });
-        marker4.setMap(map);
-        var marker5 = new google.maps.Marker({
-          position: {lat: 40.762201, lng: -74.147702},
-          map: map, 
-          title: 'Kearny High School'
-        });
-        marker5.setMap(map);
-        var marker6 = new google.maps.Marker({
-          position: {lat: 40.914915, lng: -74.179953},
-          map: map,
-          title: 'Paterson Great Falls'
-        });
-        marker6.setMap(map);
-        var marker7 = new google.maps.Marker({
-          position: {lat: 40.754233, lng: -74.144033},
-          map:map,
-          title: 'Hindu Community Center'
-        });
-        marker7.setMap(map);
-        var marker8 = new google.maps.Marker({
-          position: {lat: 40.917063, lng: -74.171956},
-          map: map,
-          title: 'Paterson City Hall'
-        });
-        marker8.setMap(map);
-        var marker9 = new google.maps.Marker({
-          position: {lat: 40.731771, lng: -74.173594},
-          map:map,
-          title: 'Newark City Hall'
-        });
-        marker9.setMap(map);
-        var marker10 = new google.maps.Marker({
-          position: {lat: 40.757694, lng: -74.181108},
-          map:map,
-          title: 'Branch Brook Park'
-        });
-        marker10.setMap(map);
-        var marker11 = new google.maps.Marker({
-          position: {lat: 40.759806, lng: -74.189149},
-          map:map,
-          title: 'Newark Schools Stadium'
-        });
-        marker11.setMap(map);
-        var marker12 = new google.maps.Marker({
-          position: {lat: 40.745818, lng: -74.170061},
-          map:map, 
-          title: 'Bears and Eagles Riverfront Stadium'
-        });
-        marker12.setMap(map);
-        var marker13 = new google.maps.Marker({
-          position: {lat: 40.738924, lng: -74.168937},
-          map:map, 
-          title: 'Military Park'
-        });
-        marker13.setMap(map);
-        var marker14 = new google.maps.Marker({
-          position: {lat: 40.839656, lng: -74.229753},
-          map:map,
-          title: 'Mills Reservation County Park'
-        });
-        marker14.setMap(map);
-        var marker15 = new google.maps.Marker({
-          position: {lat: 40.764499, lng: -74.147943},
-          map:map,
-          title: 'Kearny Town Hall'
-        });
-        marker15.setMap(map);
-        var marker16 = new google.maps.Marker({
-          position: {lat: 40.733282, lng: -74.171262},
-          map:map,
-          title: 'Prudential Center'
-        });
-        marker16.setMap(map);
-        var marker17 = new google.maps.Marker({
-          position: {lat: 40.762086, lng: -74.154913},
-          map:map,
-          title: 'Veterans Memorial Field'
-        });
-        marker17.setMap(map);
-        var marker18 = new google.maps.Marker({
-          position: {lat: 40.752132, lng: -74.15892},
-          map:map,
-          title: 'East Newark Police Department'
-        });
-        marker18.setMap(map);
-        var marker19 = new google.maps.Marker({
-          position: {lat: 40.784136, lng: -74.233221},
-          map:map,
-          title: 'Thomas Edison National Historic Park'
-        });
-        marker19.setMap(map);
-        var marker20 = new google.maps.Marker({
-          position: {lat: 40.839656, lng: -74.229753},
-          map:map,
-          title: 'Mills Reservation County Park'
-        });
-        marker20.setMap(map);
-        var marker21 = new google.maps.Marker({
-          position: {lat: 40.839656, lng: -74.229753},
-          map:map,
-          title: 'Mills Reservation County Park'
-        });
-        marker21.setMap(map);
-        var marker22 = new google.maps.Marker({
-          position: {lat: 40.839656, lng: -74.229753},
-          map:map,
-          title: 'Mills Reservation County Park'
-        });
-        marker22.setMap(map);
-        var marker23 = new google.maps.Marker({
-          position: {lat: 40.839656, lng: -74.229753},
-          map:map,
-          title: 'Mills Reservation County Park'
-        });
-        marker23.setMap(map);
-        var marker24 = new google.maps.Marker({
-          position: {lat: 40.839656, lng: -74.229753},
-          map:map,
-          title: 'Mills Reservation County Park'
-        });
-        marker24.setMap(map);
-        var marker25 = new google.maps.Marker({
-          position: {lat: 40.839656, lng: -74.229753},
-          map:map,
-          title: 'Mills Reservation County Park'
-        });
-        marker25.setMap(map);
-        var marker26 = new google.maps.Marker({
-          position: {lat: 40.839656, lng: -74.229753},
-          map:map,
-          title: 'Mills Reservation County Park'
-        });
-        marker26.setMap(map);
-        var marker27 = new google.maps.Marker({
-          position: {lat: 40.839656, lng: -74.229753},
-          map:map,
-          title: 'Mills Reservation County Park'
-        });
-        marker27.setMap(map);
-        var marker28 = new google.maps.Marker({
-          position: {lat: 40.839656, lng: -74.229753},
-          map:map,
-          title: 'Mills Reservation County Park'
-        });
-        marker28.setMap(map);
-        var marker29 = new google.maps.Marker({
-          position: {lat: 40.839656, lng: -74.229753},
-          map:map,
-          title: 'Mills Reservation County Park'
-        });
+          marker2.setMap(map);
       }
+
     </script>
     <script async defer
-
         src="https://maps.googleapis.com/maps/api/js?callback=initMap">
     </script>
   </body>

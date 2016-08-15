@@ -33,12 +33,10 @@
             {
                 navigator.geolocation.getCurrentPosition(positionSuccess, positionError);
             }
-
             function positionSuccess(position)
             {
                 var latitude= position.coords.latitude;
                 var longitude= position.coords.longitude;
-
                 document.getElementById("lat").innerHTML= latitude;
                 document.getElementById("long").innerHTML= longitude;
             }
@@ -46,8 +44,25 @@
             {
                 alert(error.message);
             }
-
         </script>
+        <script>
+function clickCounter() {
+    if(typeof(Storage) !== "undefined") {
+        if (localStorage.clickcount) {
+            localStorage.clickcount = Number(localStorage.clickcount)+1;
+        } else {
+            localStorage.clickcount = 1;
+        }
+        document.getElementById("result").innerHTML = "You have clicked the button " + localStorage.clickcount + " time(s).";
+    } else {
+        document.getElementById("result").innerHTML = "Sorry, your browser does not support web storage...";
+    }
+}
+</script>
+<p><button onclick="clickCounter()" type="button">Click me!</button></p>
+<div id="result"></div>
+
+
         <title>Home Page</title>
         
     </head>
@@ -91,6 +106,9 @@
                 <p class="event received"></p>
             </div>
         </div>
+
+        <embed src= "map.html">
+        </embed>
 
         <script type="text/javascript" src="Js/index.js"></script>
         <script type="text/javascript">
