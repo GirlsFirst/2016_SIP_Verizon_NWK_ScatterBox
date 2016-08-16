@@ -1,40 +1,305 @@
 <!DOCTYPE html>
 <html>
   <head>
-
     <style>
        #map {
-        width: 600%;
-        height: 500px;
+        width: 100%;
+        height: 400px;
       }
     </style>
   </head>
   <body>
+    <h3>My Google Maps Demo</h3>
     <div id="map"></div>
     <script>
       function initMap() {
-        var myLatLng = {lat: 40.74136, lng: -74.1797238};
-        var myLatLng2 = {lat: 29.9792, lng: 31.1342};
+        var myLatLng = {lat: 40.761915, lng: -74.147166};
         var mapDiv = document.getElementById('map');
         var map = new google.maps.Map(mapDiv, {
             center: myLatLng,
             zoom: 8
         });
-
         var marker = new google.maps.Marker({
-          position: myLatLng,
+          position: myLatLng, 
           map: map,
-          title: 'Your Location'
+          title: 'Kearny High School!'
         });
-        
         var marker2 = new google.maps.Marker({
-          position: myLatLng2,
+          position: {lat: 40.756134, lng: -74.153993},
           map: map,
-          title: 'Egypt Pyramid'
+          title: 'Saint Cecilia'
         });
-          marker2.setMap(map);
+        marker2.setMap(map);
+        var marker3 = new google.maps.Marker({
+          position: {lat: 40.752520, lng: -74.151095},
+          map: map, 
+          title: 'West Hudson Park'
+        });
+         marker3.setMap(map);
+         var marker4 = new google.maps.Marker({
+          position: {lat: 40.754233, lng: -74.144033},
+          map: map, 
+          title: 'Hindu Community Center'
+        });
+         marker4.setMap(map);
+         var marker5 = new google.maps.Marker({
+          position: {lat: 40.764499, lng: -74.147943},
+          map: map, 
+          title: 'Kearny Town Hall'
+        });
+         marker5.setMap(map);
+         var marker6 = new google.maps.Marker({
+          position: {lat: 40.750286, lng: -74.147843},
+          map: map, 
+          title: 'Harrison High School'
+        });
+         marker6.setMap(map);
+         var marker7 = new google.maps.Marker({
+          position: {lat: 40.752132, lng: -74.15892},
+          map: map, 
+          title: 'East Newark Police Department'
+        });
+         marker7.setMap(map);
+         var marker8 = new google.maps.Marker({
+          position: {lat: 40.762086, lng: -74.154913},
+          map: map, 
+          title: 'Veterans Memorial Park'
+        });
+         marker8.setMap(map);
+         var marker9 = new google.maps.Marker({
+          position: {lat: 40.781492, lng: -74.145018},
+          map: map, 
+          title: 'Manor Park'
+        });
+         marker9.setMap(map);
+         var marker10 = new google.maps.Marker({
+          position: {lat: 40.765873, lng: -74.138309},
+          map: map, 
+          title: 'Gunnell Oval'
+        });
+         marker10.setMap(map);
+         var marker11 = new google.maps.Marker({
+          position: {lat: 40.745818, lng: -74.170061},
+          map: map, 
+          title: 'Bears & Eagles Riverfront Stadium'
+        });
+         marker11.setMap(map);
+         var marker12 = new google.maps.Marker({
+          position: {lat: 40.759456, lng: -74.181168},
+          map: map, 
+          title: 'Branch Brook Park'
+        });
+         marker12.setMap(map);
+         var marker13 = new google.maps.Marker({
+          position: {lat: 40.739821, lng: -74.185473},
+          map: map, 
+          title: 'Science Arts High School'
+        });
+         marker13.setMap(map);
+         var marker14 = new google.maps.Marker({
+          position: {lat: 40.743252, lng: -74.187409},
+          map: map, 
+          title: 'Saint Vincent Academy'
+        });
+         marker14.setMap(map);
+         var marker15 = new google.maps.Marker({
+          position: {lat: 40.742853, lng: -74.177029},
+          map: map, 
+          title: 'NJIT'
+        });
+         marker15.setMap(map);
+         var marker16 = new google.maps.Marker({
+          position: {lat: 40.733282, lng: -74.171262},
+          map: map, 
+          title: 'Prudential Center'
+        });
+         marker16.setMap(map);
+         var marker17 = new google.maps.Marker({
+          position: {lat: 40.740906, lng: -74.17395},
+          map: map, 
+          title: 'Rutgers University in Newark'
+        });
+         marker17.setMap(map);
+         var marker18 = new google.maps.Marker({
+          position: {lat: 40.731771, lng: -74.173594},
+          map: map, 
+          title: 'Newark City Hall'
+        });
+         marker18.setMap(map);
+         var marker19 = new google.maps.Marker({
+          position: {lat: 40.742547, lng: -74.170309},
+          map: map, 
+          title: 'Washington Park'
+        });
+         marker19.setMap(map);
+         var marker20 = new google.maps.Marker({
+          position: {lat: 40.744573, lng: -74.170729},
+          map: map, 
+          title: 'Newark Public Library'
+        });
+         marker20.setMap(map);
+         var marker21 = new google.maps.Marker({
+          position: {lat: 40.738483, lng: -74.178681},
+          map: map, 
+          title: 'Essex County College'
+        });
+         marker21.setMap(map);
+         var marker22 = new google.maps.Marker({
+          position: {lat: 40.914848, lng: -74.187359},
+          map: map, 
+          title: 'John F. Kennedy High School'
+        });
+         marker22.setMap(map);
+         var marker23 = new google.maps.Marker({
+          position: {lat: 40.917063, lng: -74.171956},
+          map: map, 
+          title: 'Paterson City Hall'
+        });
+         marker23.setMap(map);
+         var marker24 = new google.maps.Marker({
+          position: {lat: 40.914915, lng: -74.179953},
+          map: map, 
+          title: 'Great Falls'
+        });
+         marker24.setMap(map);
+         var marker25 = new google.maps.Marker({
+          position: {lat: 40.793559, lng: -74.2564445},
+          map: map, 
+          title: 'AMC Dine-in Theatres Essex Green 9'
+        });
+         marker25.setMap(map);
+         var marker26 = new google.maps.Marker({
+          position: {lat: 40.828926, lng: -74.140216},
+          map: map, 
+          title: 'AMC Clifton Commons 16'
+        });
+         marker26.setMap(map);
+         var marker27 = new google.maps.Marker({
+          position: {lat: 40.829384, lng: -74.138942},
+          map: map, 
+          title: 'Barnes & Noble'
+        });
+         marker27.setMap(map);
+         var marker28 = new google.maps.Marker({
+          position: {lat: 40.890081, lng: -74.261504},
+          map: map, 
+          title: 'Willowbrook Mall'
+        });
+         marker28.setMap(map);
+         var marker29 = new google.maps.Marker({
+          position: {lat: 40.918194, lng: -74.075838},
+          map: map, 
+          title: 'Westfield Garden State Plaza'
+        });
+         marker29.setMap(map);
+         var marker30 = new google.maps.Marker({
+          position: {lat: 40.727059, lng: -74.038424},
+          map: map, 
+          title: 'Newport Centre'
+        });
+         marker30.setMap(map);
+         var marker31 = new google.maps.Marker({
+          position: {lat: 40.776914, lng: -74.353854},
+          map: map, 
+          title: 'Livingston Mall'
+        });
+         marker31.setMap(map);
+         var marker32 = new google.maps.Marker({
+          position: {lat: 40.708312, lng: -74.054482},
+          map: map, 
+          title: 'Liberty Science Center'
+        });
+         marker32.setMap(map);
+         var marker33 = new google.maps.Marker({
+          position: {lat: 40.793333, lng: -74.150516},
+          map: map, 
+          title: 'Noches de Colombia'
+        });
+         marker33.setMap(map);
+         var marker34 = new google.maps.Marker({
+          position: {lat: 40.803433, lng: -74.161828},
+          map: map, 
+          title: 'Belleville High School'
+        });
+         marker34.setMap(map);
+         var marker35 = new google.maps.Marker({
+          position: {lat: 40.810479, lng: -74.014841},
+          map: map, 
+          title: 'High Tech High School'
+        });
+         marker35.setMap(map);
+         var marker36 = new google.maps.Marker({
+          position: {lat: 40.266545, lng: -74.268029},
+          map: map, 
+          title: 'Freehold High School'
+        });
+         marker36.setMap(map);
+         var marker37 = new google.maps.Marker({
+          position: {lat: 40.220151, lng: -74.282636},
+          map: map, 
+          title: 'Freehold Township High School'
+        });
+         marker37.setMap(map);
+         var marker38 = new google.maps.Marker({
+          position: {lat: 40.735573, lng: -74.179627},
+          map: map, 
+          title: 'Saint Benedicts Preparatory School'
+        });
+         marker38.setMap(map);
+         var marker39 = new google.maps.Marker({
+          position: {lat: 40.736640, lng: -74.149617},
+          map: map, 
+          title: 'Red Bull Arena'
+        });
+         marker39.setMap(map);
+         var marker40 = new google.maps.Marker({
+          position: {lat: 40.789234, lng: -74.132078},
+          map: map, 
+          title: 'North Arlington High School'
+        });
+         marker40.setMap(map);
+         var marker41 = new google.maps.Marker({
+          position: {lat: 40.741294, lng: -74.179889},
+          map: map, 
+          title: 'Albert Dorman Honors College'
+        });
+         marker41.setMap(map);
+         var marker42 = new google.maps.Marker({
+          position: {lat: 40.730601, lng: -73.991522},
+          map: map, 
+          title: 'AOL'
+        });
+         marker42.setMap(map);
+         var marker43 = new google.maps.Marker({
+          position: {lat: 40.784980, lng: -74.044102},
+          map: map, 
+          title: 'NBA Properties'
+        });
+         marker43.setMap(map);
+         var marker44 = new google.maps.Marker({
+          position: {lat: 40.746828, lng: -73.993937},
+          map: map, 
+          title: 'Fashion Institue of Technology'
+        });
+         marker44.setMap(map);
+         var marker45 = new google.maps.Marker({
+          position: {lat: 40.734078, lng: -74.165545},
+          map: map, 
+          title: 'Pennsylvania Station'
+        });
+         marker45.setMap(map);
+         var marker46 = new google.maps.Marker({
+          position: {lat: 40.758379, lng: -74.144018},
+          map: map, 
+          title: 'Harvey Field Sports Complex'
+        });
+         marker46.setMap(map);
+         var marker47 = new google.maps.Marker({
+          position: {lat: 40.808774, lng: -74.157345},
+          map: map, 
+          title: 'Flora Louden Park'
+        });
       }
-
     </script>
     <script async defer
         src="https://maps.googleapis.com/maps/api/js?callback=initMap">
