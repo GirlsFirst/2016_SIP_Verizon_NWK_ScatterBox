@@ -47,5 +47,9 @@ body{
 .closebtn:hover {
     color: black;
 }
+#title{
+	color: #7FEDFF;
+	background-color: black;
+}
 
 #4CAF50=green
