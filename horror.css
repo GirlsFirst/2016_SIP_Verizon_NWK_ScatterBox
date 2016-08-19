@@ -1,25 +1,29 @@
 body{
-	background-image: url(horror.jpg);
+	background-image: url(horror1.jpg);
 	background-size: 390px 630px;
 }
 #welcome{
 	font-family: "arial";
 	color: white;
-	background-color: black;
+	background-color:  grey;
 	font-size: 14px;
 }
 #btn{
 
 	font-family: "arial";
 	color: white;
-	background-color: #006064;
+	background-color: #263238;
 	font-size: 20px;
 }
 #btn2{
 	font-family: "arial";
 	color: white;
-	background-color: #006064;
+	background-color: #263238;
 	font-size: 20px;
+}
+#title{
+    color: #7FEDFF;
+    background-color: black;
 }
 .points {
     padding: 20px;
@@ -40,3 +44,5 @@ body{
 .closebtn:hover {
     color: black;
 }
+
+ #006064= dark blue(btn color)

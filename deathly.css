@@ -1,12 +1,12 @@
 body{
-	background-image: url(death.jpg);
+	background-image: url(death1.jpg);
 	background-size: 390px 630px;
 }
 #welcome{
 	font-family: "arial";
-	color: #7FEDFF;
+	color: white;
 	background-color:  #607d8b;
-	font-size: 13px;
+	font-size: 12px;
 	font-weight: thick;
 
 }
@@ -40,6 +40,10 @@ body{
 }
 .closebtn:hover {
     color: black;
+}
+#title{
+    color: #7FEDFF;
+    background-color: black;
 }
 
 7FEDFF-light blue

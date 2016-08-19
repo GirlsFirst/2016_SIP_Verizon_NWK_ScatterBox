@@ -1,21 +1,21 @@
 body{
-	background-image: url(galaxy3.jpg);
+	background-image: url(galaxy1.jpg);
 	background-size: 390px 630px;
 }
 #btn{
 	font-family: "arial";
 	color: white;
-	background-color: #212121;
+	background-color: #ff5722;
 }
 #btn2{
 	font-family: "arial";
 	color: white;
-	background-color: #212121;
+	background-color: #ff5722;
 }
 #welcome{
 	font-family: "arial";
 	color: white;
-	background-color: #ff5722;
+	background-color: #ff8a65;
 	font-size: 13px;
 
 }
@@ -41,6 +41,15 @@ body{
     color: black;
 }
 
+#title{
+    color: #7FEDFF;
+    background-color: black;
+}
+
+
 f44336=red
 ff5722=deep orange red
-212121=blackgrey 
+212121=blackgrey
+ff7043=light pink (samen)
+ff8a65= darker pink
+ff5722= dark pink
