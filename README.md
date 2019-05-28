@@ -1,4 +1,4 @@
-Contributurs to the project:
+Contributors to the project:
 * Trinity Headen
 * Gloria Salas
 * Dewan Fathima
